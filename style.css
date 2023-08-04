@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: blue;
+    height: 10vh;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+header h1:hover{
+    color: rgb(138, 138, 250);
+}
+
+main h1{
+    display: flex;
+    font-size: 7vh;
+}
+
+#projetos{
+    border: 1px solid black;
+    display: flex;
+    border-radius: 2vh;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    width: 6vw;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+
+#projetos:hover{
+    background-color: rgb(20, 23, 199);
+}
+
+div{
+    display: flex;
+    padding-top: 2vh;
+    padding-left: 2vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    padding: 5vh;
+}
+
+.container-um{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 137);
+    width: 50vw;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8vh;
+    font-size: large ;
+    border-radius: 5vh;
+}
+
+.container-dois{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 137);
+    width: 20vw;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5vh;
+}
+
+img{
+    width: 13vw;
+}
+
+#container-um-texto{
+    text-align:justify ;
+}
+
+.container-dois-titulo{
+    display: flex;
+    justify-content:space-between;
+    width: 15vw;
+}
+
+.container-dois-paragrafo{
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+    padding-left: 3vw;
+
+}
+
+.phyton{
+    display: flex;
+    flex-direction: column;
+}
+
+#phyton{
+    display: flex;
+    border: 1px solid white;
+    padding: 1vh;
+    width: 8vw;
+    justify-content: center;
+
+}
+
+footer{
+    width: 25vw;
+    background-color: blue;
+}
